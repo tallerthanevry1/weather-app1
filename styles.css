@@ -1,0 +1,51 @@
+body{
+    border: 6px solid;
+    border-radius: 50px;
+    margin: auto;
+    width: 29vw;
+    height: 46vw;
+    
+}
+
+body::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.50; 
+}
+
+body, main{ 
+text-align: center;
+}
+
+.weather{
+    letter-spacing: 2px;
+    margin: 5px auto;
+    padding: 10px 0 0 0;
+   font-size: 20px;
+
+}
+
+#title{
+    padding: 18px;
+    font-size: 30px;
+}
+
+div{
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+form{
+    margin: 50px;
+}
+
+input{
+    text-align: center;
+    margin: 2px;
+}
